@@ -1,0 +1,229 @@
+commit de00a1ccb33538f4ed8c9f54d5693304c2fb24c7 (HEAD -> master)
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 23:22:41 2021 +0200
+
+    nyt on done
+
+ tiedostoja/file22 | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 08ba1856cb0577d32bc10288cd86a6a21af15688
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 23:22:06 2021 +0200
+
+    done
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 44f327038b61730e16a250af795636aa453ea77b
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 23:20:12 2021 +0200
+
+    uusia tiedostoja
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 0880c91c2b6d418a369f59eab5b090a91b583821
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 23:07:38 2021 +0200
+
+    jee
+
+ eka.txt    | 10 +++++++++-
+ kolmas.txt |  7 ++++---
+ 2 files changed, 13 insertions(+), 4 deletions(-)
+
+commit 05dea7373faa5c09a331194c2f14cddd51af5b23
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 23:06:12 2021 +0200
+
+    tiedosto.txt poistettu
+
+ tiedosto.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit c565eb6bc3e9c7759c79f5b404c87b8f9622bb44
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 23:05:49 2021 +0200
+
+    tiedosto.txt nimi muutettu
+
+ eka.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 0b3f54bd81a41269218a5413ad9d8fb7f93a66e7
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 23:04:22 2021 +0200
+
+    toinen.txt poistettu
+
+ toinen.txt | 146 ----------------------------------------------------------------------------------
+ 1 file changed, 146 deletions(-)
+
+commit 315768445bcf1ba63325d52a2d270027b6c0fd67
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 23:01:56 2021 +0200
+
+    jee
+
+ toinen.txt | 50 ++++++++++++++++++++++++++++++++++++++++++++++++--
+ 1 file changed, 48 insertions(+), 2 deletions(-)
+
+commit ddc5ce24ae7fc4e55c1125a1d00fb42dc0690976
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 23:00:06 2021 +0200
+
+    paljon tekstiä lisätty
+
+ toinen.txt | 100 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 99 insertions(+), 1 deletion(-)
+
+commit dcb51657d163a5fbaa3c7459ca50896911a89877
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 22:43:17 2021 +0200
+
+    toinen ja kolmas muutettu
+
+ kolmas.txt | 3 +++
+ toinen.txt | 2 ++
+ 2 files changed, 5 insertions(+)
+
+commit c3e00505ae8f3ce042dab899e5726f7f47c4a66c
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 22:41:36 2021 +0200
+
+    done
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit a09fef6110fdc55b2edd184fb1690d48eb63f923
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 22:37:28 2021 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit cd695000ed48905102dde8c922e47625f70d3777
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 22:34:49 2021 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+...skipping...
+
+    jee
+
+ toinen.txt | 50 ++++++++++++++++++++++++++++++++++++++++++++++++--
+ 1 file changed, 48 insertions(+), 2 deletions(-)
+
+commit ddc5ce24ae7fc4e55c1125a1d00fb42dc0690976
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 23:00:06 2021 +0200
+
+    paljon tekstiä lisätty
+
+ toinen.txt | 100 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 99 insertions(+), 1 deletion(-)
+
+commit dcb51657d163a5fbaa3c7459ca50896911a89877
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 22:43:17 2021 +0200
+
+    toinen ja kolmas muutettu
+
+ kolmas.txt | 3 +++
+ toinen.txt | 2 ++
+ 2 files changed, 5 insertions(+)
+
+commit c3e00505ae8f3ce042dab899e5726f7f47c4a66c
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 22:41:36 2021 +0200
+
+    done
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit a09fef6110fdc55b2edd184fb1690d48eb63f923
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 22:37:28 2021 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit cd695000ed48905102dde8c922e47625f70d3777
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 22:34:49 2021 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+...skipping...
+
+    jee
+
+ toinen.txt | 50 ++++++++++++++++++++++++++++++++++++++++++++++++--
+ 1 file changed, 48 insertions(+), 2 deletions(-)
+
+commit ddc5ce24ae7fc4e55c1125a1d00fb42dc0690976
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 23:00:06 2021 +0200
+
+    paljon tekstiä lisätty
+
+ toinen.txt | 100 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 99 insertions(+), 1 deletion(-)
+
+commit dcb51657d163a5fbaa3c7459ca50896911a89877
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 22:43:17 2021 +0200
+
+    toinen ja kolmas muutettu
+
+ kolmas.txt | 3 +++
+ toinen.txt | 2 ++
+ 2 files changed, 5 insertions(+)
+
+commit c3e00505ae8f3ce042dab899e5726f7f47c4a66c
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 22:41:36 2021 +0200
+
+    done
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit a09fef6110fdc55b2edd184fb1690d48eb63f923
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 22:37:28 2021 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit cd695000ed48905102dde8c922e47625f70d3777
+Author: Teemu Pennanen <teemu.pennanen@helsinki.fi>
+Date:   Tue Mar 23 22:34:49 2021 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+(END)

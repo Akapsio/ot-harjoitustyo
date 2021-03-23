@@ -1,0 +1,7 @@
+.
+├── github_log
+└── OhTe
+    └── ot-harjoitustyo
+        ├── laskarit
+        │   └── viikko1
+        └── README.md
