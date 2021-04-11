@@ -2,5 +2,5 @@
 
 | päivä | aika | mitä tein  |
 | :----:|:-----| :-----|
-| 11.4. | 3    | Opettelin Gitin käyttöä, hahmottelin harjoitustyön luokkia ja totetutusta |
-| yht   | 3    | | 
+| 11.4. | 5    | Opettelin Gitin käyttöä, hahmottelin harjoitustyön luokkia ja totetutusta |
+| yht   | 5    | | 
