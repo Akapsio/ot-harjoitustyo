@@ -1,6 +1,6 @@
 package pasianssi;
 
-public class Card extends Deck {
+public class Card {
     private int suitOrdinal;
     private int value;
     
@@ -28,6 +28,9 @@ public class Card extends Deck {
     }
     
     public String toString() {
+        if (value > 10) {
+            
+        }
         return suitToString(this.suitOrdinal) + " " + this.value; 
     }
 }
