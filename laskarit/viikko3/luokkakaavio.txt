@@ -1,0 +1,29 @@
+[Pawn]->[Pelaaja]
+[Pelaaja]->[Pelilauta]
+[Pelilauta]<-[Ruutu]
+[Ruutu]<-[Aloitusruutu]
+[Ruutu]<-[Vankilaruutu]
+[Ruutu]<-[Yhteismaaruutu]
+[Ruutu]<-[Sattumaruutu]
+[Ruutu]<-[Asemat ja laitokset ruutu]
+[Ruutu]<-[Normaalikatu ruutu]
+
+[Pelilauta|ruudut: Ruutu]
+
+[Pawn| type: String;location: int]
+
+[Pelaaja|name: String ; pawn: Pawn]
+
+[Ruutu| toiminto: Toiminto; sijainti: int; edellinen: int; seuraava: int]
+
+[Aloitusruutu| location = 0]
+
+[Vankilaruutu| location int = 10]
+
+[Sattumaruutu]
+
+[Yhteismaaruutu]
+
+[Asemat ja laitokset ruutu| location: int]
+
+[Normaalikatu ruutu| nimi: String; omistaja: String; taloja: int]
