@@ -1,10 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package pasianssi;
 
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.is;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -12,11 +9,18 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author osvald
- */
 public class PasianssiTest {
+    Deck deck;
+    
+    @Test
+    public void deckSizeIs52() {
+        assertThat(deck.getDeck().size(), is(equalTo(52)));
+    }
+    
+    @Before
+    public void setUp() {
+        deck = new Deck();
+    }
     
     public PasianssiTest() {
     }
@@ -27,10 +31,6 @@ public class PasianssiTest {
     
     @AfterClass
     public static void tearDownClass() {
-    }
-    
-    @Before
-    public void setUp() {
     }
     
     @After

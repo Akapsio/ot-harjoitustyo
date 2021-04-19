@@ -1,6 +1,6 @@
 package pasianssi;
 
 public enum Suit {
-    DIAMOND, SPADE, CLUB, HEARTS;
-    
+    CLUB, SPADE, DIAMOND, HEARTS;
+
 }
