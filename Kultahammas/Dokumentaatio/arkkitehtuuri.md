@@ -2,7 +2,7 @@
 
 ## Rakenne
 
-<img src=https://https://raw.githubusercontent.com/Akapsio/Kultahammas/blob/master/Dokumentaatio/kuvat/pakkausrakenne.jpg>
+<img src="https://github.com/Akapsio/ot-harjoitustyo/blob/main/Kultahammas/Dokumentaatio/kuvat/pakkausrakenne.jpg" widht="200">
 
 Tervetulonäkymä
 
