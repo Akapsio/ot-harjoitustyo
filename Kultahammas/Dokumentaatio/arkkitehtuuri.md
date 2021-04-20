@@ -2,6 +2,8 @@
 
 ## Rakenne
 
+<img src=https://https://raw.githubusercontent.com/Akapsio/Kultahammas/blob/master/Dokumentaatio/kuvat/pakkausrakenne.jpg>
+
 Tervetulonäkymä
 
 Itse pelialusta

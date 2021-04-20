@@ -10,29 +10,36 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class PasianssiTest {
+
     Deck deck;
-    
+
     @Test
-    public void deckSizeIs52() {
+    public void DeckSizeIs52() {
         assertThat(deck.getDeck().size(), is(equalTo(52)));
     }
-    
+
+    @Test
+    public void CardsAreNotLostWhenShuffled() {
+        deck.shuffleDeck();
+        assertThat(deck.getDeck().size(), is(equalTo(52)));
+    }
+
     @Before
     public void setUp() {
         deck = new Deck();
     }
-    
+
     public PasianssiTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @After
     public void tearDown() {
     }

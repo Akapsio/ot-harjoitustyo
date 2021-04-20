@@ -7,9 +7,9 @@ public class Deck {
     
     public Deck() {
         this.cards = new ArrayList<>();
-        for (int i = 0 ; i <= 3 ; i++) {
-            for (int j = 1 ; j <= 13 ; j++) {
-                cards.add(new Card(i,j));
+        for (int i = 0; i <= 3; i++) {
+            for (int j = 1; j <= 13; j++) {
+                cards.add(new Card(i, j));
             }
         }
     }
@@ -21,7 +21,7 @@ public class Deck {
     public void shuffleDeck() {
         Random random = new Random();
         ArrayList<Card> newDeck = new ArrayList<>();
-        for (int i = 51 ; i >= 0 ; i--) {
+        for (int i = 52; i > 0; i--) {
             int card = random.nextInt(i);
             newDeck.add(cards.get(card));
             cards.remove(card);

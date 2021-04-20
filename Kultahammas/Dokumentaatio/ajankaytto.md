@@ -6,4 +6,5 @@
 | 7.4.  | 2    | Alustavaa luokkien hahmottelua |
 | 11.4. | 5    | Opettelin Gitin käyttöä, hahmottelin harjoitustyön luokkia ja totetutusta |
 | 19.4. | 3    | Uusia luokkia, yksi toimiva testi. |
-| yht   | 5    | | 
+| 20.4. | 5    | JavaFX konfiguraatio, pom.xml tiedoston hiomista, luokkien jakaminen paketteihin |
+| yht   | 17   | | 

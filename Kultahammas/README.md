@@ -1,7 +1,14 @@
 # Pasianssi
 
 Kyseessä on Helsingin yliopiston kurssin Ohjelmistotekniikka harjoitusyö. Harjoitustyön tavoitteena 
-on pasianssipelin toteuttaminen. Tarkemmat tavoitteet dokumentoidaan muualle (mihin???).
+on pasianssipelin toteuttaminen, jossa on kaksi mahdollista pelimoodia: Nosta-yksi-kortti ja nosta-
+kolme-korttia.
+
+## Dokumentaatio
+
+[Ajankäyttö](https://github.com/Akapsio/ot-harjoitustyo/blob/main/Kultahammas/Dokumentaatio/ajankaytto.md)
+[Arkkitehtuuri](https://github.com/Akapsio/ot-harjoitustyo/blob/main/Kultahammas/Dokumentaatio/arkkitehtuuri.md)
+[Määrittelydokumentti]()
 
 # Käyttöohje
 
