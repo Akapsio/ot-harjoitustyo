@@ -1,0 +1,42 @@
+teepenna@melkki:~$ tree kurssit
+kurssit
+├── ot2021
+│   └── viikko1
+│       ├── ot_viikko1
+│       │   ├── cat
+│       │   ├── eka.txt
+│       │   ├── kolmas.txt
+│       │   └── tiedostoja
+│       │       ├── file22
+│       │       └── file3
+│       └── Unicafe
+│           ├── pom.xml
+│           └── src
+│               ├── main
+│               │   └── java
+│               │       └── com
+│               │           └── mycompany
+│               │               └── unicafe
+│               │                   ├── Kassapaate.java
+│               │                   ├── Maksukortti.java
+│               │                   └── Paaohjelma.java
+│               └── test
+│                   └── java
+│                       └── com
+│                           └── mycompany
+│                               └── unicafe
+│                                   └── MaksukorttiTest.java
+└── ot2022
+    └── viikko1
+        └── unicafe
+            ├── poetry.lock
+            ├── pyproject.toml
+            └── src
+                ├── index.py
+                ├── kassapaate.py
+                ├── maksukortti.py
+                └── tests
+                    ├── __init__.py
+                    └── maksukortti_test.py
+
+21 directories, 17 files
