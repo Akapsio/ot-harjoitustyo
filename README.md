@@ -11,3 +11,6 @@
 ## Viikko 2
 
 [Vaatimusmäärittely](/digipeli/dokumentaatio/vaatimusmaarittely.md)
+
+[Työaikakirjanpito](/digipeli/dokumentaatio/tuntikirjanpito.md)
+
