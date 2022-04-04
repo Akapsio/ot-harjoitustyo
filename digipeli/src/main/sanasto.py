@@ -13,11 +13,11 @@ class Sanasto:
                 return sanasto
         except ValueError:
             print(f"{nimi} nimistä tiedostoa ei löytynyt")
-
-    def tarkista_sanaston_nimen_saatavuus(self, nimi):
-        with open("sanastojen_nimet") as tiedosto:
+   
+    def tarkista_sanaston_nimen_saatavuus(self, nimi: str):
+        with open("sanastojen_nimet.txt") as tiedosto:
             mjono = tiedosto.read()
-	        sanastojen_nimet = mjono.split(",")
+            sanastojen_nimet = mjono.split(",")
             for sanasto in sanastojen_nimet:
                 if sanasto != nimi:
                     return True
@@ -26,7 +26,7 @@ class Sanasto:
         return False
            
     def lisaa_sana(self, sana):
-        if len(self.sanasto) < pituus:
+        if len(self.sanasto) < self.pituus:
             self.sanasto.append(sana)
         else:
             raise ValueError("Sanasto on täynnä")

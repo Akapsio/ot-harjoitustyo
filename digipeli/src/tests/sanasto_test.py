@@ -1,11 +1,12 @@
 import unittest
-from src import Sanasto
-from src/sanastot import testi_sanasto.txt
-from src import sanastojen_nimet.txt
+from main.sanasto import Sanasto
+from typing import List
 
 class TestSanasto(unittest.TestCase):
-    def setUp(self)
+    def setUp(self):
+        self.sanasto = Sanasto("sanasto", 50)
         
-    def olemassa_oleva_sanasto_saadaan_haettua_test(self)
-        testi_sanasto = hae_sanasto("testi_sanasto")
-        
+    def test_hae_sanasto_palauttaa_listan(self):
+        testi_sanasto = self.sanasto.hae_sanasto("testi_sanasto.txt")
+        self.assertEqual(type(testi_sanasto), List)
+    
