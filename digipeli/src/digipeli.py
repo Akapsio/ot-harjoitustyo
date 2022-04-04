@@ -24,4 +24,7 @@ class Sanasto:
             raise ValueError("Sanasto on täynnä")
     
     def tallenna_sanasto(self):
+        with open(self.nimi, "w") as tiedosto:
+            for sana in self.sanasto:
+                tiedosto.write(f"{sana}, ")
         
