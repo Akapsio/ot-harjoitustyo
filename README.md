@@ -1,16 +1,34 @@
-# Ohjelmistotekniikan, harjoitustyö
+# Sanaselityspeli
 
-## Tehtävät
+Sovelluksen käyttäjät, eli pelaajat, voivat pelata sanaselityspeliä. Jokainen pelaaja voi luoda itselleen oman käyttäjätilin myöhempää pelaamista varten. 
 
-## Viikko 1
+Sovellus pohjautuu sanaselityspeliin, jossa pelaajat keksivät selitettävät sanat itse.
 
-[gitlog.txt](https://github.com/Akapsio/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
+## Dokumentaatio
 
-[komentorivi.txt](https://github.com/Akapsio/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
+[Vaatimusmäärittely](.dokumentaatio/vaatimusmaarittely.md)
+[Työaikakirjanpito](.dokumentaatio/tuntikirjanpito.md)
+[Changelog](.dokumentaatio/changelog.md)
 
-## Viikko 2
+## Asennus
 
-[Vaatimusmäärittely](/digipeli/dokumentaatio/vaatimusmaarittely.md)
+Käynnistä sovellus komennolla:
 
-[Työaikakirjanpito](/digipeli/dokumentaatio/tuntikirjanpito.md)
+```bash
+poetry run invoke start
+```
 
+### Testaus
+
+Testit suoritetaan komennolla:
+
+```bash
+poetry run invoke test
+```
+
+### Testikattavuus
+
+Testikattavuusraportin voi generoida komennolla:
+
+```bash
+poetry run invoke coverage-report

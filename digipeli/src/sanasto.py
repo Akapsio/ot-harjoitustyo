@@ -1,10 +1,10 @@
 class Sanasto:
     
-    def __init__(self, nimi, pituus):
-        if tarkista_sanaston_nimen_saatavuus(nimi):
+    def __init__(self, nimi):
+        if self.tarkista_sanaston_nimen_saatavuus(nimi):
             self.nimi = nimi
         self.sanasto = []
-        self.pituus = pituus
+        self.pituus = 0
 
     def hae_sanasto(self, nimi):
         try:
@@ -13,7 +13,7 @@ class Sanasto:
                 return sanasto
         except ValueError:
             print(f"{nimi} nimistä tiedostoa ei löytynyt")
-   
+
     def tarkista_sanaston_nimen_saatavuus(self, nimi: str):
         with open("sanastojen_nimet.txt") as tiedosto:
             mjono = tiedosto.read()
@@ -28,13 +28,14 @@ class Sanasto:
     def lisaa_sana(self, sana):
         if len(self.sanasto) < self.pituus:
             self.sanasto.append(sana)
+            self.pituus += 1
         else:
             raise ValueError("Sanasto on täynnä")
     
     def tallenna_sanasto(self):
-        with open(self.nimi, "w") as tiedosto:
-            for sana in self.sanasto:
-                tiedosto.write(f"{sana}, ")
-        with open("Sanastot") as tiedosto:
-            tiedosto.write(", {self.nimi}")
+            with open(self.nimi, "w") as tiedosto:
+                for sana in self.sanasto:
+                    tiedosto.write(f"{sana}, ")
+            with open("Sanastot") as tiedosto:
+                tiedosto.write(", {self.nimi}")
 	    
