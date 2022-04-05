@@ -27,7 +27,7 @@ class Wordlist:
             self.wordlist.append(word)
             self.length += 1
         else:
-            raise ValueError("Sanasto on täynnä")
+            print("Sanasto on täynnä")
     
     def save_wordlist(self):
             with open(self.name, "w") as file:
