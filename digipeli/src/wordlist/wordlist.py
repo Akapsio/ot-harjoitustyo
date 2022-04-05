@@ -30,8 +30,8 @@ class Wordlist:
             print("Sanasto on täynnä")
     
     def save_wordlist(self):
-            with open(self.name, "w") as file:
-                for word in self.wordlist:
-                    file.write(f"{word}, ")
-            with open(path_to_names_of_wordlists, "w") as wordlist:
+        with open(self.name, "w") as file:
+            for word in self.wordlist:
+                file.write(f"{word}, ")
+        with open(path_to_names_of_wordlists, "w") as wordlist:
                 wordlist.write(", {self.nimi}")
