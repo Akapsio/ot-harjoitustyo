@@ -6,7 +6,7 @@ path_to_test_wordlist = '/home/tee/Desktop/ot-harjoitustyo/digipeli/src/sanastot
 name_of_test_worldist = "testi_sanasto.txt"
 complete_name = os.path.join(path_to_test_wordlist, name_of_test_worldist)
 
-class TestSanasto(unittest.TestCase):
+class TestWordlist(unittest.TestCase):
 
     def setUp(self):
         self.wordlist = Wordlist("Testi", 50)
@@ -18,7 +18,6 @@ class TestSanasto(unittest.TestCase):
     def test_wordlist_is_List(self):
         wordlist = self.wordlist.get_wordlist()
         self.assertEqual(type(wordlist), list)
-
 
 class Wordlist:
     
@@ -41,14 +40,3 @@ class Wordlist:
         if len(self.wordlist) < self.length:
             self.wordlist.append(word)
             self.length += 1
-        else:
-            raise ValueError("Sanasto on täynnä")
-    
-    def save_wordlist(self):
-            with open(self.name, "w") as file:
-                for word in self.wordlist:
-                    file.write(f"{word}, ")
-            with open(path_to_names_of_wordlists, "w") as wordlist:
-                wordlist.write(", {self.nimi}")
-	    
-
