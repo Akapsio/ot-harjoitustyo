@@ -4,5 +4,5 @@
 | 3.3.	| 2	| Koodin toiminnallisuuden teko, poetryn määrittely |	
 | 4.3.	| 3	| Epätoivoista testien määrittelyä
 | 5.3.	| 4	| 2 testiä tehty, ja muut harjoitustehtävään liittyvät tämän viikon tehtävät |
-
+|11.3.  | 2     | Relatiivisten polkujen määrittelyä, järjestelyä |
 

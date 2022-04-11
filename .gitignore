@@ -1,6 +1,12 @@
 .pytest_cache
 __pycache__
-
 .coverage
 htmlcov
+
+#data files
+data/players.csv
+data/wordlists.csv
+data/players-test.csv
+data/wordlists-test.csv
+
 
