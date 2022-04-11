@@ -1,23 +1,15 @@
 import unittest
-import csv
+import os
 from entities.player import Player
+from repositories.player_repository import PlayerRepository
+
+dirname = os.path.dirname(__file__)
 
 class TestPlayer(unittest.TestCase):
 
     def setUp(self):
-        with open("players.csv", "w") as f:
-            csv_writer = csv.writer(f)
-            csv_writer.writerow("default,0")
+        player_repository = PlayerRepository(os.path.join(dirname, "..", "data", "players-test.csv"))
 
     def test_cannot_add_user_named_default_user(self):
-        with open("players.csv", 'r') as f:
-            csv_reader = csv.read(f)
-            line_count = 0
-            for row in csv_reader:
-                if line_count == 0:
-                    continue
-                
-        self.assertEquals(Player("default_user"), "Nimi on jo käytössä")
-    
-
+        return 
     
