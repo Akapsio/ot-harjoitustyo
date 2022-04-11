@@ -11,4 +11,6 @@ except FileNotFoundError:
 PLAYERS_FILENAME = os.getenv('PLAYERS_FILENAME') or 'playes.csv'
 PLAYERS_FILE_PATH = os.path.join(dirname, '..', 'data', PLAYERS_FILENAME)
 
+WORDLISTS_FILENAME = os.getenv('WORDLISTS_FILENAME') or 'wordlists.csv'
+WORDLISTS_FILE_PATH = os.path.join(dirname, '..', 'data', WORDLISTS_FILENAME)
 

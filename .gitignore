@@ -4,9 +4,9 @@ __pycache__
 htmlcov
 
 #data files
-data/players.csv
-data/wordlists.csv
-data/players-test.csv
-data/wordlists-test.csv
+src/data/players.csv
+src/data/wordlists.csv
+src/data/players-test.csv
+src/data/wordlists-test.csv
 
 
