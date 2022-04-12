@@ -1,3 +1,5 @@
+'''This .py file might be totally unnecessary for what I understand, so I
+suppose this unnecessary comment is justified as well'''
 import os
 from dotenv import load_dotenv
 
@@ -13,4 +15,3 @@ PLAYERS_FILE_PATH = os.path.join(dirname, '..', 'data', PLAYERS_FILENAME)
 
 WORDLISTS_FILENAME = os.getenv('WORDLISTS_FILENAME') or 'wordlists.csv'
 WORDLISTS_FILE_PATH = os.path.join(dirname, '..', 'data', WORDLISTS_FILENAME)
-
