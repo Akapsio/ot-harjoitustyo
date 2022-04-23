@@ -6,11 +6,11 @@ Sovellus pohjautuu sanaselityspeliin, jossa pelaajat keksivät selitettävät sa
 
 ## Dokumentaatio
 
-[Vaatimusmäärittely](.dokumentaatio/vaatimusmaarittely.md)
+[Vaatimusmäärittely](./digipeli/dokumentaatio/vaatimusmaarittely.md)
 
-[Työaikakirjanpito](.dokumentaatio/tuntikirjanpito.md)
+[Työaikakirjanpito](./digipeli/dokumentaatio/tuntikirjanpito.md)
 
-[Changelog](.dokumentaatio/changelog.md)
+[Changelog](./digipeli/dokumentaatio/changelog.md)
 
 ## Asennus
 
