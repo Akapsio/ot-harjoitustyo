@@ -1,7 +1,7 @@
 '''Testing the Player class'''
 import unittest
 import os
-from repositories.player_repository import PlayerRepository
+from ..repositories.player_repository import PlayerRepository
 
 dirname = os.path.dirname(__file__)
 
