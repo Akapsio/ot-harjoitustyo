@@ -1,7 +1,6 @@
-from entities.player import Player
-from repositories.player_repository import PlayerRepository
-
 import os
+
+from repositories.player_repository import PlayerRepository
 
 dirname = os.path.dirname(__file__)
 
