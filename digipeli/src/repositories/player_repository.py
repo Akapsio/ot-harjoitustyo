@@ -27,7 +27,7 @@ class PlayerRepository:
     def _read(self):
         print("Luetaan")
         '''Reads the players.csv file'''
-        players = []
+        players = {}
 
         self._ensure_file_exists()
 
@@ -43,7 +43,7 @@ class PlayerRepository:
                 parts = row.split(',')
                 player_name = parts[0]
                 victories = parts[1]
-                players.append(Player(player_name, victories))
+                players[parts[0]] = parts[1]
         return players
 
     def create(self, player):
@@ -53,7 +53,7 @@ class PlayerRepository:
         players = self.find_all()
         print(f"Players in create {players}")
         if self._ensure_username_is_free(player, players):
-            players.append(player)
+            players[player] = 0
         else:
             raise ValueError("Username is in use")
         self._write(players)
@@ -62,16 +62,18 @@ class PlayerRepository:
         print("kirjoitetaan")
         '''Write a .csv file'''
         self._ensure_file_exists()
+        print("päästäänkö tänne?")
 
         with open(self._file_path, 'w', encoding="UTF-8") as file:
+            print("tänne?")
             row_count = 0
             for player in players:
                 if row_count == 0:
                     file.write("player,victories\n")
                     row_count += 1
-                    continue
-                print(player[0], player[1])
-                row = f"{player[0]},{player[1]}"
+                print(players)
+                row = str(player) + "," + str(players[player])
+                print("Tulostetaan rivi funktiosta _write", row)
                 file.write(row+"\n")
 
     def _ensure_file_exists(self):
