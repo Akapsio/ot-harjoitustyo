@@ -1,21 +1,3 @@
-
-Skip to content
-ohjelmistotekniikka-hy /
-ohjelmistotekniikka-hy.github.io
-Public
-
-Code
-Issues
-Pull requests
-Actions
-
-More
-ohjelmistotekniikka-hy.github.io/materiaali/python/.pylintrc
-@Kaltsoon
-Kaltsoon Update .pylintrc
-History
-1 contributor
-593 lines (445 sloc) 17.8 KB
 [MASTER]
 
 # A comma-separated list of package or module names from where C extensions may
@@ -609,18 +591,4 @@ min-public-methods=0
 # "BaseException, Exception".
 overgeneral-exceptions=BaseException,
                        Exception
-
-    © 2022 GitHub, Inc.
-
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
 

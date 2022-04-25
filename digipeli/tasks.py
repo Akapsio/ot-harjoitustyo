@@ -1,8 +1,12 @@
 from invoke import task
 
 @task
+def lint(ctx):
+    ctx.run("pylint src", pty=True)
+
+@task
 def start(ctx):
-    ctx.run("python3 src/digipeli.py", pty=True)
+    ctx.run("python3 src/index.py", pty=True)
 
 @task
 def test(ctx):

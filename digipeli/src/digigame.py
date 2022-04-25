@@ -1,13 +1,11 @@
-import os
-from entities.player import Player
-from repositories.player_repository import PlayerRepository
+path = "/home/tee/Desktop/ot-harjoitustyo/digipeli/data/wordlists-test.csv"
 
-dirname = os.path.dirname(__file__)
+with open(r'/home/tee/Desktop/ot-harjoitustyo/digipeli/data/wordlists-test.csv', "r") as file:
+    row = file.read()
+    print(row)
 
-todo_repository = PlayerRepository(os.path.join(dirname, "..", "data", "todos.csv"))
-
-todo_repository.create(Player("Learn the repository pattern"))
-
-todos = todo_repository.find_all()
-
-print(todos)
+with open(path, "w") as file:
+    row.strip()
+    print(row)
+    file.write(row)
+        

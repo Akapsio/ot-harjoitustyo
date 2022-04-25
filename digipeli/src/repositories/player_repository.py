@@ -9,6 +9,8 @@ class PlayerRepository:
     and write the player repository: list into .csv file '''
     def __init__(self, file_path):
         self._file_path = file_path
+        players = {}
+        self._write(players)
 
     def find_username(self, username):
         '''Returns True if username exists in file'''
@@ -52,7 +54,7 @@ class PlayerRepository:
         print(player)
         players = self.find_all()
         print(f"Players in create {players}")
-        if self._ensure_username_is_free(player, players):
+        if self._ensure_username_is_free(str(player), players):
             players[player] = 0
         else:
             raise ValueError("Username is in use")
@@ -65,12 +67,8 @@ class PlayerRepository:
         print("päästäänkö tänne?")
 
         with open(self._file_path, 'w', encoding="UTF-8") as file:
-            print("tänne?")
-            row_count = 0
+            file.write("player,victories\n")
             for player in players:
-                if row_count == 0:
-                    file.write("player,victories\n")
-                    row_count += 1
                 print(players)
                 row = str(player) + "," + str(players[player])
                 print("Tulostetaan rivi funktiosta _write", row)
@@ -81,7 +79,8 @@ class PlayerRepository:
 
     def _ensure_username_is_free(self, username_candidate, players):
         for player in players:
-            if player[0] == username_candidate:
+            # lower() varmistaa, että käyttäjä todella on uniikki
+            if str(player).lower() == username_candidate.lower():
                 return False
         return True
 
