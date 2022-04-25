@@ -19,17 +19,10 @@ class PlayerRepository:
                 return True
         return False
 
-    def create(self, player):
-        '''Create a new player'''
-        players = self.find_all()
-        print(players)
-        if self._ensure_username_is_free(player, players):
-            players.append(player)
-        else:
-            raise ValueError("Username is in use")
-        
-
-        self._write(players)
+    def find_all(self):
+        print("Etsitään ")
+        '''Returns a list of tuples (username, victories)'''
+        return self._read()
 
     def _read(self):
         print("Luetaan")
@@ -41,6 +34,7 @@ class PlayerRepository:
         with open(self._file_path, encoding="UTF-8") as file:
             row_count = 0
             for row in file:
+                print(row)
                 if row_count == 0:
                     row_count += 1
                     continue
@@ -51,6 +45,18 @@ class PlayerRepository:
                 victories = parts[1]
                 players.append(Player(player_name, victories))
         return players
+
+    def create(self, player):
+        '''Create a new player'''
+        print("Luodaan")
+        print(player)
+        players = self.find_all()
+        print(f"Players in create {players}")
+        if self._ensure_username_is_free(player, players):
+            players.append(player)
+        else:
+            raise ValueError("Username is in use")
+        self._write(players)
 
     def _write(self, players):
         print("kirjoitetaan")
@@ -64,13 +70,9 @@ class PlayerRepository:
                     file.write("player,victories\n")
                     row_count += 1
                     continue
+                print(player[0], player[1])
                 row = f"{player[0]},{player[1]}"
                 file.write(row+"\n")
-
-    def find_all(self):
-        print("Etsitään ")
-        '''Returns a list of tuples (username, victories)'''
-        return self._read()
 
     def _ensure_file_exists(self):
         Path(self._file_path).touch()
