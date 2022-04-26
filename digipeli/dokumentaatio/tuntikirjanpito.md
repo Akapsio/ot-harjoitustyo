@@ -7,6 +7,7 @@
 |11.4.  | 2     | Relatiivisten polkujen määrittelyä, järjestelyä |
 |11.4.  | 6     | Polkujen määrittämist (ehkä onnistuneesti), player_repository repositorimallin mukaisesti, järjestys alkaa löytymään. Kaikenlaista hienosäätöä |
 |23.4.  | 4     | PlayerRepository melkeen toimii. Korjailtu puutteita aiemmilta viikoilta |  
-|25.4.  | 4     | PlayerRepository ja WordlistRepository toimii. Koodin kommentointia.
+|25.4.  | 4     | PlayerRepository ja WordlistRepository toimii. Koodin kommentointia. |
+|26.4.  | 4     | Testien luomista ja repositorien hiomista. |
 |:----- | :-----|            |
 | yht.  | 24 |

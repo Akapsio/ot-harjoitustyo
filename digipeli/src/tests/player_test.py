@@ -1,17 +1,15 @@
 '''Testing the Player class'''
 import unittest
 import os
-from ..repositories.player_repository import PlayerRepository
-
-dirname = os.path.dirname(__file__)
+from entities.player import Player
 
 class TestPlayer(unittest.TestCase):
     '''Class for testing the Player class'''
     def setUp(self):
-        '''Setting up a player repository'''
-        player_repository = PlayerRepository(os.path.join(dirname,
-        "..", "data", "players-test.csv"))
+        self.player = Player("default")
 
-    def test_cannot_add_user_named_default_user(self):
-        '''Test to see that you cannot add a username that is already in use'''
-        return
+    def test_player_name_is_default(self):
+        self.assertEqual(self.player.get_name(), "default")
+
+    def test_player_has_zero_victories(self):
+        self.assertEqual(self.player.get_victories(), 0)

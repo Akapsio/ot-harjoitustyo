@@ -2,8 +2,11 @@
 class Player:
     '''Creates a new player with specified username and 0 victories'''
     def __init__(self, username: str):
-        self.username = username
-        self.victories = 0
+        self._username = username
+        self._victories = 0
 
-    def __str__(self):
-        return f"{self.username}, {self.victories}"
+    def get_name(self):
+        return self._username
+
+    def get_victories(self):
+        return self._victories
