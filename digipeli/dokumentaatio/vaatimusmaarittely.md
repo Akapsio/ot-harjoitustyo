@@ -13,9 +13,13 @@ Peli muistuttaa kaikille tuttua Alias-peliä. Eroja Aliakseen kuitenkin on:
 
 Yhdestä arvauksesta saa pisteen yhden pisteen. Eniten pisteitä kerännyt voittaa pelin.
 
-## Käyttäjäprofiilit
+## Käyttäjäprofiilit (tehty)
 
-Pelin mukana tulee tietokanta, joka sisältää 100 sanaa. Jokainen pelaaja luo itselleen oman profiilin.
+Jokainen pelaaja luo itselleen oman profiilin, joka kirjoitetaan talteen myöhempää käyttöä varten.
+
+## Sanastotietokanta (tehty, ei toimi)
+
+Pelin mukana tulee tietokanta, joka sisältää 50 sanan sanalistan. Sanastotietokantaan voi lisätä omia listoja (ja se juuri onkin pelin tarkoitus)
 
 ## Käyttöliittymäluonnos
 

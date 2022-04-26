@@ -33,12 +33,12 @@ poetry run invoke test
 Testikattavuusraportin voi generoida komennolla:
 
 ```bash
-poetry run invoke coverage-report
+poetry run invoke coverage coverage-report
 ```
 
 ### Pylint
 
-Pylintin käynnistäminen tapahtuu komellonna 
+Pylintin käynnistäminen tapahtuu komennolla
 ```bash
-poetry run invoke pylint
+poetry run invoke lint
 ```

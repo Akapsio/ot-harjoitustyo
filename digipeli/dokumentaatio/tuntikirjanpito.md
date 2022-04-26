@@ -8,6 +8,6 @@
 |11.4.  | 6     | Polkujen määrittämist (ehkä onnistuneesti), player_repository repositorimallin mukaisesti, järjestys alkaa löytymään. Kaikenlaista hienosäätöä |
 |23.4.  | 4     | PlayerRepository melkeen toimii. Korjailtu puutteita aiemmilta viikoilta |  
 |25.4.  | 4     | PlayerRepository ja WordlistRepository toimii. Koodin kommentointia. |
-|26.4.  | 4     | Testien luomista ja repositorien hiomista. |
+|26.4.  | 8     | Testien luomista ja repositorien hiomista. WordlistRepository ei toimi sittenkään vieläkään |
 |:----- | :-----|            |
-| yht.  | 24 |
+| yht.  | 36 |

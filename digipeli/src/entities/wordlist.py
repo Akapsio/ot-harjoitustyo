@@ -4,14 +4,18 @@ class Wordlist:
     length'''
     def __init__(self, name, length):
         '''Initialize Wordlist'''
-        self.name = name
+        self._name = name
         self.wordlist = []
-        self.length = length
+        self._length = length
 
     def get_length(self):
         '''Returns length of Wordlist'''
-        return self.length
+        return self._length
 
     def get_name(self):
         '''Returns name of Wordlist'''
-        return self.name
+        return self._name
+
+    def get_list(self):
+        '''Returns list of words'''
+        return self.wordlist

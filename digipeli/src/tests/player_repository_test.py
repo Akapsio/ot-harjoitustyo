@@ -11,11 +11,11 @@ class TestPlayerRepository(unittest.TestCase):
         '''Setting up a player repository'''
         self.player_repository = PlayerRepository(os.path.join(dirname,
         "../..", "data", "players-test.csv"))
-        self.player_repository.create("default")
+        self.player_repository.create(Player("default"))
         
     def test_cannot_add_user_named_default(self):
         '''Test to see that you cannot add a username that is already in use'''
-        self.assertRaises(ValueError, lambda: self.player_repository.create("default"))
+        self.assertRaises(ValueError, lambda: self.player_repository.create(Player("default")))
 
     def test_find_username_returns_True_when_looking_for_existing_player(self):
         self.assertEqual(True, self.player_repository.find_username("default"))
