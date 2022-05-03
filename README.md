@@ -1,3 +1,7 @@
+# Tämän viikon muutoksista
+
+Yritin luoda uutta haaraa, jotta voisin jatkaa siitä, mihin olen itse jäänyt. Tämän viikon muutokset masterissa ovat koodikatselmoinnista mergettyjä, enkä osaa palauttaa omaa työtäni takaisin tähän hätään. Koska koodi ei ole omaa käsialaani, en koe ansaitsevani pisteitäkään.
+
 # Sanaselityspeli
 
 Sovelluksen käyttäjät, eli pelaajat, voivat pelata sanaselityspeliä. Jokainen pelaaja voi luoda itselleen oman käyttäjätilin myöhempää pelaamista varten. 
