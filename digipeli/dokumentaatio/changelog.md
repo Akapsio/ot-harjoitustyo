@@ -13,3 +13,11 @@
 - Käyttäjän luominen onnistuu
 - Sanalista tietokannan luominen onnistuu valmiista sanalistasta. Uuden sanalista luominen ei onnistu
 - Testaamista laajennettu PlayerRepository luokan osalta
+
+## Viikko 6
+
+- Ei muutoksia
+
+## Viikko 7
+
+- Näkymiä luotu, näkymien välillä pystyy seikkailemaan

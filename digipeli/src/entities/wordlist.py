@@ -1,13 +1,19 @@
 '''Uniquely named wordlists for the game'''
+from queue import Empty
+
+
 class Wordlist:
     '''
     A representation of a named wordlist, possibly with a unique name,
     and an empty list or a list with initial seed of words.
     '''
-    def __init__(self, name, default_contents = []):
+    def __init__(self, name, contents):
         '''Initialize Wordlist'''
         self._name = name
-        self._wordlist = default_contents
+        if contents is Empty:
+            self.worldlist = []
+        else:
+            self._wordlist = contents
 
 
     def get_length(self):

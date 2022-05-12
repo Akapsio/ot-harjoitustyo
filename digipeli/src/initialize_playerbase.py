@@ -1,6 +1,8 @@
 import os
 from repositories.player_repository import PlayerRepository
-from entities.player import Player
+'''Script for initializing player repository
+
+'''
 
 dirname = os.path.dirname(__file__)
 
